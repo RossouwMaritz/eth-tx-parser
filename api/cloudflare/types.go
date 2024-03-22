@@ -15,7 +15,7 @@ type BlockNumberResult struct {
 type TraceFilterRequest struct {
 	JSONRPC string            `json:"jsonrpc"`
 	Method  string            `json:"method"`
-	Params  TraceFilterParams `json:"method"`
+	Params  TraceFilterParams `json:"params"`
 	ID      string            `json:"id,omitempty"`
 }
 
